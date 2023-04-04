@@ -1,5 +1,3 @@
-<b>- SPANISH -</b><br><br>
-
 # Lector de RSS para VidaExtra en Kotlin
 
 Lector de RSS muy sencillo para el blog de videojuegos VidaExtra escrito en Kotlin para Android. Con este lector, puedes estar al día de las últimas noticias, reseñas y artículos de opinión publicados en VidaExtra.
@@ -19,7 +17,9 @@ Este lector de RSS utiliza las siguientes dependencias:
 
 A continuación, se muestra una captura de pantalla del lector de RSS en acción:
 
-<img src="Screenshot_20230404_030926.png" width="20%" alt="Captura de pantalla">
+<img src="Screenshot_20230404_030926.png" width="20%" alt="Captura de pantalla"><br><br>
+
+
 
 <b>- ENGLISH -</b><br><br>
 
