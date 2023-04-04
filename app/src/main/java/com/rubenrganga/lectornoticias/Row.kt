@@ -32,6 +32,12 @@ class ItemAdapter(context: Context, objects: List<Item>) :
         val nombreTextView = itemView?.findViewById<TextView>(R.id.tvTitulo)
         nombreTextView?.text = item?.title
 
+        val fechaTextView = itemView?.findViewById<TextView>(R.id.tvFecha)
+        fechaTextView?.text = item?.date
+
+        val enlaceTextView = itemView?.findViewById<TextView>(R.id.tvEnlace)
+        enlaceTextView?.text = item?.link
+
         /*
 
         Intenté añadir el nombre del autor al lector RSS pero esa propiedad
@@ -48,12 +54,6 @@ class ItemAdapter(context: Context, objects: List<Item>) :
         autorTextView?.text = item?.Dc_creator
 
          */
-
-        val fechaTextView = itemView?.findViewById<TextView>(R.id.tvFecha)
-        fechaTextView?.text = item?.date
-
-        val enlaceTextView = itemView?.findViewById<TextView>(R.id.tvEnlace)
-        enlaceTextView?.text = item?.link
 
         return itemView!!
     }

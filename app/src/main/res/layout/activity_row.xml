@@ -19,27 +19,28 @@
 
         <TextView
             android:id="@+id/tvTitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:contextClickable="true"
             android:cursorVisible="false"
             android:text="TextView"
-            android:textSize="18dp"
             android:textColor="@color/black_2"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvFecha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/tvEnlace"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/teal_700"
-            android:text="TextView" />
+            android:layout_height="match_parent"
+            android:text="TextView"
+            android:textColor="@color/teal_700" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
